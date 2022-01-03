@@ -1,0 +1,13 @@
+{
+    "name": "Elon Musk plans",
+    "description": "Become a iron man project!",
+    "version": "1.0",
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "js/background.js"
+    },
+    "action": {
+        "default_popup": "html/popup.html"
+    },
+    "permissions": ["storage"]
+}
